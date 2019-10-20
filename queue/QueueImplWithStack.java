@@ -29,10 +29,7 @@ public class QueueImplWithStack {
         for(int i= stack1.top; i > -1; i--){
             int k = stack1.pop();
             stack2.push(k);
-            while(stack2.top !=-1) {
-
-                stack2.top--;
-            }
+          
         }
     }
 
